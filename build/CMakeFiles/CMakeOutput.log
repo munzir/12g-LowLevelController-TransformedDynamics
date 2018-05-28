@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/panda/myfolder/wholebody
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b6646/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b6646.dir/build.make CMakeFiles/cmTC_b6646.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_03b58/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03b58.dir/build.make CMakeFiles/cmTC_03b58.dir/build
 make[1]: Entering directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b6646.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_b6646.dir/testCCompiler.c.o   -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_b6646
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6646.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_b6646.dir/testCCompiler.c.o  -o cmTC_b6646 -rdynamic 
+Building C object CMakeFiles/cmTC_03b58.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_03b58.dir/testCCompiler.c.o   -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_03b58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03b58.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_03b58.dir/testCCompiler.c.o  -o cmTC_03b58 -rdynamic 
 make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_07026/fast"
-/usr/bin/make -f CMakeFiles/cmTC_07026.dir/build.make CMakeFiles/cmTC_07026.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f05b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f05b6.dir/build.make CMakeFiles/cmTC_f05b6.dir/build
 make[1]: Entering directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_07026.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_07026.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_07026
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07026.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_07026.dir/CMakeCCompilerABI.c.o  -o cmTC_07026 -rdynamic  
+Building C object CMakeFiles/cmTC_f05b6.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f05b6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f05b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f05b6.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_f05b6.dir/CMakeCCompilerABI.c.o  -o cmTC_f05b6 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_07026' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvwP4VH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_07026 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_07026.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f05b6' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDxrg6I.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f05b6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f05b6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_07026/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_07026.dir/build.make CMakeFiles/cmTC_07026.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f05b6/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f05b6.dir/build.make CMakeFiles/cmTC_f05b6.dir/build]
   ignore line: [make[1]: Entering directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_07026.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_07026.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_07026]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07026.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_07026.dir/CMakeCCompilerABI.c.o  -o cmTC_07026 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_f05b6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_f05b6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f05b6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f05b6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_f05b6.dir/CMakeCCompilerABI.c.o  -o cmTC_f05b6 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_07026' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvwP4VH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_07026 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_07026.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f05b6' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDxrg6I.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f05b6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f05b6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccvwP4VH.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDxrg6I.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_07026] ==> ignore
+    arg [cmTC_f05b6] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_07026.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_f05b6.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -155,14 +155,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cab60/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cab60.dir/build.make CMakeFiles/cmTC_cab60.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e3c01/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3c01.dir/build.make CMakeFiles/cmTC_e3c01.dir/build
 make[1]: Entering directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cab60.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_cab60.dir/feature_tests.c.o   -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_cab60
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cab60.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_cab60.dir/feature_tests.c.o  -o cmTC_cab60 -rdynamic 
+Building C object CMakeFiles/cmTC_e3c01.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_e3c01.dir/feature_tests.c.o   -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e3c01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3c01.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e3c01.dir/feature_tests.c.o  -o cmTC_e3c01 -rdynamic 
 make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
 
 
@@ -175,14 +175,14 @@ make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelCo
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1fcef/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1fcef.dir/build.make CMakeFiles/cmTC_1fcef.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_dc030/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc030.dir/build.make CMakeFiles/cmTC_dc030.dir/build
 make[1]: Entering directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1fcef.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_1fcef.dir/feature_tests.c.o   -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1fcef
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fcef.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_1fcef.dir/feature_tests.c.o  -o cmTC_1fcef -rdynamic 
+Building C object CMakeFiles/cmTC_dc030.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_dc030.dir/feature_tests.c.o   -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dc030
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc030.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_dc030.dir/feature_tests.c.o  -o cmTC_dc030 -rdynamic 
 make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
 
 
@@ -195,14 +195,14 @@ make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelCo
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_782b0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_782b0.dir/build.make CMakeFiles/cmTC_782b0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9a959/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a959.dir/build.make CMakeFiles/cmTC_9a959.dir/build
 make[1]: Entering directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_782b0.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_782b0.dir/feature_tests.c.o   -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_782b0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_782b0.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_782b0.dir/feature_tests.c.o  -o cmTC_782b0 -rdynamic 
+Building C object CMakeFiles/cmTC_9a959.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_9a959.dir/feature_tests.c.o   -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9a959
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a959.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_9a959.dir/feature_tests.c.o  -o cmTC_9a959 -rdynamic 
 make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
 
 
@@ -213,28 +213,28 @@ make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelCo
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4af77/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4af77.dir/build.make CMakeFiles/cmTC_4af77.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f2f09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2f09.dir/build.make CMakeFiles/cmTC_f2f09.dir/build
 make[1]: Entering directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4af77.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_4af77.dir/testCXXCompiler.cxx.o -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_4af77
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4af77.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_4af77.dir/testCXXCompiler.cxx.o  -o cmTC_4af77 -rdynamic 
+Building CXX object CMakeFiles/cmTC_f2f09.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_f2f09.dir/testCXXCompiler.cxx.o -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f2f09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2f09.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f2f09.dir/testCXXCompiler.cxx.o  -o cmTC_f2f09 -rdynamic 
 make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a8a29/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a8a29.dir/build.make CMakeFiles/cmTC_a8a29.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e7582/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7582.dir/build.make CMakeFiles/cmTC_e7582.dir/build
 make[1]: Entering directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a8a29.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_a8a29.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a8a29
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8a29.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_a8a29.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a8a29 -rdynamic  
+Building CXX object CMakeFiles/cmTC_e7582.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_e7582.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e7582
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7582.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_e7582.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e7582 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,8 +244,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a8a29' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccb4hQ8f.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a8a29 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a8a29.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e7582' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmH7wI8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_e7582 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_e7582.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
 
 
@@ -253,14 +253,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a8a29/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a8a29.dir/build.make CMakeFiles/cmTC_a8a29.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e7582/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e7582.dir/build.make CMakeFiles/cmTC_e7582.dir/build]
   ignore line: [make[1]: Entering directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a8a29.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_a8a29.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a8a29]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8a29.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_a8a29.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a8a29 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_e7582.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_e7582.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e7582]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7582.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_e7582.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e7582 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a8a29' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccb4hQ8f.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a8a29 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a8a29.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e7582' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmH7wI8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_e7582 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_e7582.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccb4hQ8f.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmH7wI8.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a8a29] ==> ignore
+    arg [cmTC_e7582] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_a8a29.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_e7582.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -338,14 +338,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_02af1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_02af1.dir/build.make CMakeFiles/cmTC_02af1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d474f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d474f.dir/build.make CMakeFiles/cmTC_d474f.dir/build
 make[1]: Entering directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_02af1.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_02af1.dir/feature_tests.cxx.o -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_02af1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02af1.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_02af1.dir/feature_tests.cxx.o  -o cmTC_02af1 -rdynamic 
+Building CXX object CMakeFiles/cmTC_d474f.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_d474f.dir/feature_tests.cxx.o -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d474f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d474f.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_d474f.dir/feature_tests.cxx.o  -o cmTC_d474f -rdynamic 
 make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
 
 
@@ -411,14 +411,14 @@ make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelCo
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c3f91/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c3f91.dir/build.make CMakeFiles/cmTC_c3f91.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bcb2a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bcb2a.dir/build.make CMakeFiles/cmTC_bcb2a.dir/build
 make[1]: Entering directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c3f91.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_c3f91.dir/feature_tests.cxx.o -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c3f91
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3f91.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_c3f91.dir/feature_tests.cxx.o  -o cmTC_c3f91 -rdynamic 
+Building CXX object CMakeFiles/cmTC_bcb2a.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_bcb2a.dir/feature_tests.cxx.o -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bcb2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcb2a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_bcb2a.dir/feature_tests.cxx.o  -o cmTC_bcb2a -rdynamic 
 make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
 
 
@@ -484,14 +484,14 @@ make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelCo
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fe577/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fe577.dir/build.make CMakeFiles/cmTC_fe577.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0df95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0df95.dir/build.make CMakeFiles/cmTC_0df95.dir/build
 make[1]: Entering directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fe577.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_fe577.dir/feature_tests.cxx.o -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_fe577
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe577.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_fe577.dir/feature_tests.cxx.o  -o cmTC_fe577 -rdynamic 
+Building CXX object CMakeFiles/cmTC_0df95.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_0df95.dir/feature_tests.cxx.o -c /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0df95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0df95.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_0df95.dir/feature_tests.cxx.o  -o cmTC_0df95 -rdynamic 
 make[1]: Leaving directory '/home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/build/CMakeFiles/CMakeTmp'
 
 

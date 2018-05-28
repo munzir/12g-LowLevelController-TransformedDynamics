@@ -36,6 +36,14 @@
 #include <string>
 #include <dart/dart.hpp>
 #include <boost/circular_buffer.hpp>
+#include <nlopt.hpp>
+#include <string>
+#include <config4cpp/Configuration.h>
+#include <iostream>
+
+using namespace dart;
+using namespace std;  
+using namespace config4cpp;
 
 class filter {
   public:
@@ -72,8 +80,22 @@ public:
   /// \brief Destructor
   virtual ~Controller();
 
+  void updatePositions();
+
+  void updateSpeeds();
+
+  void updateTransformJacobian();
+
+  void setLeftArmOptParams(const Eigen::Vector3d& _LeftTargetPosition);
+
+  void setRightArmOptParams(const Eigen::Vector3d& _RightTargetPosition);
+
+  void setBalanceOptParams();
+
+  void computeDynamics();
+
   /// \brief
-  void update(const Eigen::Vector3d& _LefttargetPosition,const Eigen::Vector3d& _RighttargetPosition);
+  void update(const Eigen::Vector3d& _LeftTargetPosition,const Eigen::Vector3d& _RightTargetPosition);
 
   /// \brief Get robot
   dart::dynamics::SkeletonPtr getRobot() const;
@@ -94,27 +116,64 @@ public:
   /// \brief Right End-effector of the robot
   dart::dynamics::BodyNode* mRightEndEffector;
 
-  dart::dynamics::BodyNode* mLWheel;
-  dart::dynamics::BodyNode* mRWheel;
-
   /// \brief Control forces
   Eigen::Matrix<double, 19, 1> mForces;
 
-  /// \brief Proportional gain for the virtual spring forces at the end effector
-  Eigen::Matrix3d mKp;
-
-  /// \brief Derivative gain for the virtual spring forces at the end effector
-  Eigen::Matrix3d mKv;
-
   size_t mSteps;
 
-  Eigen::Matrix<double, 30, 1> ddq_lambda;
+  Eigen::Matrix<double, 18, 1> mddqBodyRef;
 
-  double zCOMInit;
+  double mZCOMInit;
 
-  Eigen::Matrix<double, 25, 1> qInit;
+  Eigen::Matrix<double, 18, 1> mqBodyInit;
 
-  filter *dqFilt;
+  filter *mdqFilt;
+
+  double mR, mL;
+
+  Eigen::Matrix3d mKpEE;
+  Eigen::Matrix3d mKvEE;
+  double mKpCOM, mKvCOM;
+  double mKvSpeedReg; 
+  double mKpPose, mKvPose;
+
+  double mWEER, mWEEL, mWSpeedReg, mWReg, mWPose;
+  Eigen::Matrix<double, 3, 3> mWBal;
+  Eigen::Matrix<double, 18, 18> mWMatPose;
+  Eigen::Matrix<double, 18, 18> mWMatSpeedReg;
+  Eigen::Matrix<double, 18, 18> mWMatReg;
+
+  Eigen::Matrix<double, 4, 4> mBaseTf;
+  Eigen::Matrix<double, 25, 1> mq;
+  Eigen::Vector3d mxyz0; // position of frame 0 in the world frame represented in the world frame
+  double mpsi;
+  double mqBody1;
+  Eigen::Matrix<double, 18, 1> mqBody; 
+  
+  Eigen::Matrix<double, 25, 1> mdq;
+  Eigen::Vector3d mdxyz0;
+  double mdx, mdqBody1, mdpsi;
+  Eigen::Matrix<double, 18, 1> mdqBody;  
+  Eigen::Matrix<double, 20, 1> mdqMin;
+
+  Eigen::Matrix3d mRot0, mdRot0;
+
+  Eigen::Matrix<double, 25, 20> mJtf, mdJtf;
+
+  Eigen::Matrix<double, 3, 18> mPEEL, mPEER, mPBal;
+  Eigen::Matrix<double, 3, 1> mbEEL, mbEER, mbBal;
+  Eigen::Matrix<double, 18, 18> mPPose, mPSpeedReg, mPReg;
+  Eigen::Matrix<double, 18, 1> mbPose, mbSpeedReg, mbReg;
+
+  Eigen::Matrix<double, 3, 1> mZeroCol;
+  Eigen::Matrix<double, 3, 7> mZero7Col;  
+
+  Eigen::Matrix<double, 18, 18> mMM;
+  Eigen::Matrix<double, 18, 1> mhh;
+
+  Eigen::Matrix<double, 18, 1> mTauLim;
+
+  bool maxTimeSet = 0;
 };
 
 #endif  // EXAMPLES_OPERATIONALSPACECONTROL_CONTROLLER_HPP_

@@ -9,10 +9,6 @@
 /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/Controller.cpp
 Controller.hpp
 /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/Controller.hpp
-nlopt.hpp
--
-string
--
 
 /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/Controller.hpp
 Eigen/Eigen
@@ -22,6 +18,14 @@ string
 dart/dart.hpp
 -
 boost/circular_buffer.hpp
+-
+nlopt.hpp
+-
+string
+-
+config4cpp/Configuration.h
+-
+iostream
 -
 
 /home/panda/myfolder/wholebodycontrol/12g-LowLevelController-TransformedDynamics/Main.cpp
@@ -1377,6 +1381,38 @@ details.h
 /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
 
 /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+
+/usr/local/include/config4cpp/Configuration.h
+config4cpp/namespace.h
+-
+config4cpp/ConfigurationException.h
+-
+config4cpp/StringBuffer.h
+-
+config4cpp/StringVector.h
+-
+stddef.h
+-
+
+/usr/local/include/config4cpp/ConfigurationException.h
+config4cpp/namespace.h
+-
+string.h
+-
+
+/usr/local/include/config4cpp/StringBuffer.h
+config4cpp/namespace.h
+-
+assert.h
+-
+
+/usr/local/include/config4cpp/StringVector.h
+config4cpp/namespace.h
+-
+config4cpp/StringBuffer.h
+-
+
+/usr/local/include/config4cpp/namespace.h
 
 /usr/local/include/dart/collision/CollisionDetector.hpp
 vector
