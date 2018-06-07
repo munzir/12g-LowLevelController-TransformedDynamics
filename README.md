@@ -1,16 +1,20 @@
-# How To Run This 12g-LowLevelController-TransformedDynamics
+# How To Run 12g-LowLevelController-TransformedDynamics
 
 ## Dependencies
 
 - DART (at least version 6.3)
  [Dart Homepage](https://dartsim.github.io)
 - config4cpp
- [Config4Cpp Source Code Download](https://config4star.org/#main-source-code)
+ [Source Code Download](https://config4star.org/#main-source-code)
   
  How to add config4cpp to your system (Linux/BSD/OSX)
+ 
   1: Download and extract the source code of config4cpp
+  
   2: cd config4cpp
+  
   3: Follow the README.txt in config4cpp/
+  
   4: Run the following commands to add the make'd files into your local system
 		
     sudo cp bin/{config2cpp,config4cpp} /usr/local/bin
@@ -31,6 +35,7 @@
 ## Build and Run the Project
 
  1: Enter the cloned/downloaded project directory
+ 
  2: Build the Project
  
 	mkdir build
