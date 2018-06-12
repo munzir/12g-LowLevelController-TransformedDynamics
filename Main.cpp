@@ -95,7 +95,7 @@ dart::dynamics::SkeletonPtr createKrang() {
   krang->setName("krang");
 
   // Initiale pose parameters
-  /* double headingInit = 0; // Angle of heading direction from positive x-axis of the world frame: we call it psi in the rest of the code
+  /*double headingInit = 0; // Angle of heading direction from positive x-axis of the world frame: we call it psi in the rest of the code
   double qBaseInit = -M_PI/3;
   Eigen::Vector3d xyzInit;
   xyzInit << 0, 0, 0.28;
@@ -107,7 +107,7 @@ dart::dynamics::SkeletonPtr createKrang() {
   Eigen::Matrix<double, 7, 1> qLeftArmInit; 
   qLeftArmInit << 1.102, -0.589, 0.000, -1.339, 0.000, 0.3, 0.000;
   Eigen::Matrix<double, 7, 1> qRightArmInit;
-  qRightArmInit << -1.102, 0.589, 0.000, 1.339, 0.000, 1.4, 0.000; */
+  qRightArmInit << -1.102, 0.589, 0.000, 1.339, 0.000, 1.4, 0.000;*/
 
   // Read initial pose from the file
   ifstream file("../defaultInit.txt");
@@ -154,7 +154,7 @@ dart::dynamics::SkeletonPtr createKrang() {
   Eigen::Matrix<double, 25, 1> q(q_vec.data());
   
   // Initializing the configuration
-  krang->setPositions(q); 
+  krang->setPositions(q);
 
   return krang;
 }
