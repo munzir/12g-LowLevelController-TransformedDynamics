@@ -5,7 +5,7 @@
 - DART (at least version 6.3)
  [Dart Homepage](https://dartsim.github.io)
 - config4cpp
- [Source Code Download](https://config4star.org/#main-source-code)
+ [Source Code Download](http://config4star.org/#main-source-code)
   
  How to add config4cpp to your system (Linux/BSD/OSX)
  
