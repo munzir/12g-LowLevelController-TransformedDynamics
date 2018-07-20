@@ -17,11 +17,13 @@
   
   4: Run the following commands to add the make'd files into your local system
 		
-    sudo cp bin/{config2cpp,config4cpp} /usr/local/bin
-    sudo cp lib/libconfig4cpp.a /usr/local/lib
-    sudo cp -r include/config4cpp /usr/local/include
-    sudo chmod g+rx /usr/local/include/config4cpp
+    sudo cp bin/{config2cpp,config4cpp} /usr/local/bin &&
+    sudo cp lib/libconfig4cpp.a /usr/local/lib &&
+    sudo cp -r include/config4cpp /usr/local/include &&
+    sudo chmod g+rx /usr/local/include/config4cpp &&
     sudo chmod o+rx /usr/local/include/config4cpp
+    
+  *Note: You can just copy paste the above block of commands
 
 ## Download this Repository
  - Clone this repo
